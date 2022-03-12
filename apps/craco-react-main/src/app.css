@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  background-color: rgb(149, 190, 133);
+}
+
+.header > * {
+  margin-right: 1em;
+}
+
+.main {
+  height: 94vh;
+}
+
+.slot {
+  height: 100%;
+}
+
+.slot > :first-child {
+  height: 100%;
+}
+
+.logo {
+  display: block;
+  height: 32px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
