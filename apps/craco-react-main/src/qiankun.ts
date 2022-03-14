@@ -14,7 +14,7 @@ const bootstrap = (render: (loading: boolean) => void) => {
     },
     {
       name: "vite-vue-sub",
-      entry: "http://localhost:15173/",
+      entry: "http://localhost:9657/",
       activeRule: "/vue",
       container: "#slot",
       loader: render,
